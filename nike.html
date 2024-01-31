@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="hidden h-[50px] w-[100%] border shadow-sm bg-gray-100 justify-between md:flex"
+    >
+      <div>
+        <img class="h-[34px] mt-2 ml-[36px]" src="download.png" alt="" />
+      </div>
+      <div class="flex mr-10 w-[24%] h-full items-center justify-between">
+        <h4 class="hover:text-gray-500">Find a Store</h4>
+        <h4>|</h4>
+        <h4 class="hover:text-gray-500">Help</h4>
+        <h4>|</h4>
+        <h4 class="hover:text-gray-500">Join Us</h4>
+        <h4>|</h4>
+        <h4 class="hover:text-gray-500">Sign In</h4>
+      </div>
+    </nav>
+    <div
+      class="h-[68px] w-[100%] border border-gray-50 bg-white flex justify-between"
+    >
+      <div>
+        <img class="h-[55px] ml-8" src="download.jpg" alt="image" />
+      </div>
+      <div class="hidden md:block">
+        <ul class="flex gap-6 font-medium mt-5">
+          <li><a href="#">New & Featured</a></li>
+          <li><a href="#">Men</a></li>
+          <div
+            class="hover:block cursor-pointer group hover:border-b-2 border-black"
+          >
+            <li>Women</li>
+            <div
+              class="w-[95vw] h-auto absolute left-[2.5vw] top-32 hidden group-hover:block bg-white"
+            >
+              <div class="flex p-[33vh] pt-11">
+                <ul
+                  class="text-[15px] font-medium text-gray-400 pr-8 leading-9"
+                >
+                  <li class="text-[18px] font-medium text-black pb-4">
+                    Featured
+                  </li>
+                  <li>New Releases</li>
+                  <li>Bestsellers</li>
+                  <li>Member Exclusive</li>
+                  <li>Jordan</li>
+                  <li>Retro Running</li>
+                  <li>Bra and Legging Duos</li>
+                  <li>Customise with Nike By You</li>
+                  <li>Sale</li>
+                  <li>Find Your Feel-Nike Leggings</li>
+                  <li>Running Shoe Finder</li>
+                  <li>Sustainable Materials</li>
+                </ul>
+                <ul
+                  class="text-[15px] font-medium text-gray-400 pr-8 leading-9"
+                >
+                  <li class="text-[18px] font-medium text-black pb-4">Shoes</li>
+                  <li>All Shoes</li>
+                  <li>Sneakers</li>
+                  <li>Platform Sneakers</li>
+                  <li>Lifestyle</li>
+                  <li>Jordan</li>
+                  <li>Running</li>
+                  <li>Gym and Training</li>
+                  <li>Sandals and Slides</li>
+                  <li>Basketball</li>
+                  <li>Football</li>
+                  <li>Last Sizes Available</li>
+                  <li>Customise with Nike By You</li>
+                  <li>
+                    Top Picks Under
+                    <i class="fa-solid fa-indian-rupee-sign"></i> 8 000.00
+                  </li>
+                </ul>
+                <ul
+                  class="text-[15px] font-medium text-gray-400 pr-8 leading-9"
+                >
+                  <li class="text-[18px] font-medium text-black pb-4">
+                    Clothing
+                  </li>
+                  <li>All Clothing</li>
+                  <li>Performance Essentials</li>
+                  <li>Tops ans T-Shirts</li>
+                  <li>Sports Bras</li>
+                  <li>Pants and Leggings</li>
+                  <li>Shorts</li>
+                  <li>Hoodies and Sweatshirts</li>
+                  <li>Jackets and Gilets</li>
+                  <li>Skirts and Dresses</li>
+                  <li>Modern Wear</li>
+                  <li>Nike Maternity</li>
+                  <li>Plus Size</li>
+                  <li class="text-[18px] font-medium pt-11 pb-4 text-black">
+                    Accessories and Eqipment
+                  </li>
+                  <li>All Accessories and Equipment</li>
+                  <li>Bags and Backpacks</li>
+                  <li>Socks</li>
+                  <li>Hats and Headwear</li>
+                </ul>
+                <ul
+                  class="text-[15px] font-medium text-gray-400 pr-8 leading-9"
+                >
+                  <li class="text-[18px] font-medium pb-4 text-black">
+                    Shop By Sport
+                  </li>
+                  <li>Yoga</li>
+                  <li>Running</li>
+                  <li>Gym and Training</li>
+                  <li>Basketball</li>
+                  <li>Tennis</li>
+                  <li>Golf</li>
+                  <li>Football</li>
+                  <li>Skateboarding</li>
+                  <li class="text-[18px] font-medium pb-4 pt-11 text-black">
+                    Shop By Brand
+                  </li>
+                  <li>Nike Sportswear</li>
+                  <li>NikeLab</li>
+                  <li>Nike By You</li>
+                  <li>Jordan</li>
+                  <li>ACG</li>
+                  <li>NBA</li>
+                  <li>Nike SB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="">Customise</a></li>
+        </ul>
+      </div>
+      <div class="md:mr-9 mr-2 flex gap-7 items-center h-10 mt-3">
+        <div
+          class="h-10 w-40 pl-3 rounded-full flex items-center md:bg-gray-200"
+        >
+          <i class="fa-solid fa-magnifying-glass text-xl"></i>
+          <input
+            class="h-10 w-40 pl-5 bg-gray-200 outline-none rounded-full hidden md:block"
+            type="text"
+            placeholder="Search"
+          />
+        </div>
+        <i class="fa-regular fa-heart ml-3 text-2xl hidden md:block"></i>
+        <i class="fa-solid fa-bag-shopping text-2xl"></i>
+        <i class="fa-regular fa-user block md:hidden"></i>
+        <i class="fa-solid fa-bars block md:hidden"></i>
+      </div>
+    </div>
+    <div class="h-[55px] w-[100%] shadow-sm bg-gray-100 text-center">
+      <h3>Hello Nike App</h3>
+      <p>Download the app to access everything Nike. <u>Get Your Great</u></p>
+    </div>
+    <div class="h-[210vh] w-[100%] border">
+      <div class="flex justify-between">
+        <h4 class="font-medium text-[20px] ml-[45px] mt-10">Men</h4>
+        <ul class="flex text-[15px] mr-[80vh] gap-12 mt-10">
+          <li>Shop</li>
+          <li>Clothing</li>
+          <li>Gear</li>
+        </ul>
+      </div>
+      <img
+        class="w-[95%] h-[120vh] md:pl-[12vh] mt-8"
+        src="asset 1.jpeg"
+        alt="image"
+      />
+
+      <ul class="text-center mt-[10vh]">
+        <li class="text-[20px] font-medium">Nike Ekiden Pack</li>
+        <li class="text-[13vh] font-black">RUNNING IS BELIEVING.</li>
+        <li class="text-[20px] mb-3">The Ekiden is a race like no other.</li>
+        <li class="text-[20px]">
+          The Nike EKIDEN PACK once again celebrates the sprit of this event
+          with shoes to support its runners.
+        </li>
+      </ul>
+      <ul class="ml-[92vh] mt-5">
+        <li class="h-11 w-[17vh] bg-black text-white pl-8 pt-2 rounded-full">
+          Shop
+        </li>
+      </ul>
+    </div>
+    <div class="h-[120vh] w-[100%] bg-white">
+      <ul class="flex justify-between mt-6 ml-10 mr-11">
+        <li class="text-[24px] font-medium">The Latest & Greatest</li>
+        <li class="text-[19px] font-medium">
+          Shop
+          <i
+            class="fa-solid fa-chevron-left h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-100"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-right h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-200"
+          ></i>
+        </li>
+      </ul>
+      <div class="h-[110vh] w-full border border-black overflow-x-auto">
+        <div class="flex gap-5 h-[75vh]">
+          <img src="dunk-low-retro-shoes-4vdSPt.png" alt="image" />
+          <img src="dunk-low-retro-shoes-69h36X (1).png" alt="image" />
+          <img src="asset 3.jpeg" alt="image" />
+          <img src="asset 5.jpeg" alt="image" />
+          <img src="asset 7.jpeg" alt="image" />
+          <img src="asset 8.jpeg" alt="image" />
+          <img src="asset 9.jpeg" alt="image" />
+          <img src="asset 6.jpeg" alt="image" />
+          <img src="asset 10.jpeg" alt="image" />
+          <img src="asset 11.jpeg" alt="image" />
+        </div>
+        <div class="flex gap-10">
+          <ul>
+            <li>Nike Dunk Low Retro Premium</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>10,795</li>
+          </ul>
+
+          <ul>
+            <li>Nike Dunk Low Retro</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>8,695</li>
+          </ul>
+          <ul>
+            <li>Nike Air Force 1'07</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>11,895</li>
+          </ul>
+          <ul>
+            <li>Air Jordan Legacy 312 Low PSG</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>12,795</li>
+          </ul>
+          <ul>
+            <li>Nike Air Max Excee</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>8,695</li>
+          </ul>
+          <ul>
+            <li>Nike Air Max Pulse</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>13,995</li>
+          </ul>
+          <ul>
+            <li>Nike Air Max 97 SE</li>
+            <li>Men's Shoes</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>16,995</li>
+          </ul>
+          <ul>
+            <li>Paris Saint-Germain</li>
+            <li>Men's Wordmark Heritage 85 T-Shirt</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>2,985</li>
+          </ul>
+          <ul>
+            <li>Paris Saint-Germain</li>
+            <li>Men's Fleece Pullover Hoodie</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>4,095</li>
+          </ul>
+          <ul>
+            <li>Paris Saint-Germain</li>
+            <li>Men's T-Shirt</li>
+            <li>MRP:<i class="fa-solid fa-indian-rupee-sign"></i>1,995</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="h-[100vh] w-[100%] bg-white">
+      <ul class="flex justify-between">
+        <li class="text-[25px] font-medium mt-6 ml-10">Featured</li>
+        <li class="mr-11 mt-6">
+          <i
+            class="fa-solid fa-chevron-left h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-100"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-right h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-200"
+          ></i>
+        </li>
+      </ul>
+      <div class="flex justify-between p-10">
+        <ul
+          class="h-[60vh] w-[60vh] border border-gray-400 bg-[url('asset12.jpeg')] bg-cover"
+        >
+          <li class="text-center mt-[33vh] text-[24px] font-medium text-white">
+            Nike Zoom TR1: Built for your workout and beyond
+          </li>
+          <li
+            class="h-11 w-[17vh] bg-white text-gray-600 pl-8 pt-2 mt-5 ml-[18vh] rounded-full"
+          >
+            Shop
+          </li>
+        </ul>
+        <ul
+          class="h-[60vh] w-[60vh] border border-gray-400 bg-[url('asset13.jpeg')] bg-cover"
+        >
+          <li class="text-center mt-[33vh] text-[24px] font-medium text-white">
+            Men's Versatility: Designed to do it all.
+          </li>
+          <li
+            class="h-11 w-[17vh] bg-white text-gray-600 pl-8 pt-2 mt-5 ml-[18vh] rounded-full"
+          >
+            Shop
+          </li>
+        </ul>
+        <ul
+          class="h-[60vh] w-[60vh] border border-gray-400 bg-[url('asset14.jpeg')] bg-cover"
+        >
+          <li class="text-center mt-[33vh] text-[24px] font-medium text-white">
+            Nike Air Max Pulse Roam
+          </li>
+          <li
+            class="h-11 w-[22vh] bg-white text-gray-600 pl-8 pt-2 mt-10 ml-[18vh] rounded-full"
+          >
+            Roam Now
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="h-[105vh] w-[100%] bg-white">
+      <ul class="flex justify-between">
+        <li class="text-[25px] font-medium mt-6 ml-10">Shop the Icons</li>
+        <li class="mr-11 mt-6">
+          <i
+            class="fa-solid fa-chevron-left h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-100"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-right h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-200"
+          ></i>
+        </li>
+      </ul>
+      <div class="flex p-7 gap-3 overflow-x-auto h-[95vh]">
+        <img src="asset 16.jpeg" alt="image" />
+        <img src="asset 17.jpeg" alt="image" />
+        <img src="asset 18.jpeg" alt="image" />
+        <img src="asset 19.jpeg" alt="image" />
+        <img src="asset 20.jpeg" alt="image" />
+        <img src="asset 21.jpeg" alt="image" />
+        <img src="asset 22.jpeg" alt="image" />
+        <img src="asset 23.jpeg" alt="image" />
+      </div>
+    </div>
+    <div class="h-[190vh] w-[100%] bg-white">
+      <ul>
+        <li class="text-[28px] font-medium mt-11 ml-11">Trending</li>
+        <li>
+          <img class="p-9" src="Screenshot (47).png" alt="image" />
+        </li>
+        <li class="text-center text-[10vh] font-black mt-2">
+          SPEED BEYOND YOUR <br />WILDEST DREAMS
+        </li>
+        <li class="text-center text-[20px]">
+          Make it real with the Mercurial Dream Speed 7.
+        </li>
+        <li
+          class="h-11 w-[17vh] bg-black text-white pl-8 pt-2 rounded-full ml-[100vh] mt-7"
+        >
+          Shop
+        </li>
+      </ul>
+    </div>
+    <div class="h-[140vh] w-[100%] bg-white">
+      <ul>
+        <li class="text-[24px] font-medium ml-10 mt-10">Shop The Essentials</li>
+      </ul>
+      <ul class="flex justify-between ml-14 mr-14 gap-2 mt-6">
+        <li class="h-[67vh] w-[60vh] shadow-md">
+          <img class="h-67vh" src="Screenshot (49).png" alt="image" />
+        </li>
+        <li class="h-[67vh] w-[60vh] shadow-md">
+          <img class="h-[67vh]" src="Screenshot (50).png" alt="image" />
+        </li>
+        <li class="h-[67vh] w-[60vh] shadow-md">
+          <img class="h-[67vh]" src="Screenshot (51).png" alt="image" />
+        </li>
+      </ul>
+      <ul class="flex justify-between text-[25px] font-medium p-8">
+        <li class="ml-5">Clothing</li>
+        <li class="mr-[40vh] ml-[40vh]">Shoes</li>
+        <li class="mr-[42vh]">Accessories</li>
+      </ul>
+      <ul class="flex justify-between text-[20px] font-normal">
+        <li class="ml-[58px] underline underline-offset-8">Shop</li>
+        <li class="mr-[35vh] ml-[40vh] underline underline-offset-8">Shop</li>
+        <li class="mr-[62vh] underline underline-offset-8">Shop</li>
+      </ul>
+    </div>
+    <div class="h-[100vh] w-[100%] bg-white">
+      <ul class="flex justify-between">
+        <li class="text-[25px] font-medium mt-6 ml-10">Shop By Sport</li>
+        <li class="mr-11 mt-6">
+          <i
+            class="fa-solid fa-chevron-left h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-100"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-right h-[40px] w-[40px] rounded-3xl text-center pt-3 mt-1 bg-slate-200"
+          ></i>
+        </li>
+      </ul>
+      <div class="flex gap-5 overflow-x-auto h-[50vh]">
+        <img src="asset 24.jpeg" alt="image" />
+        <img src="asset 25.jpeg" alt="image" />
+        <img src="asset 25.jpeg" alt="image" />
+        <img src="asset 26.jpeg" alt="image" />
+        <img src="asset 27.jpeg" alt="image" />
+        <img src="asset 28.jpeg" alt="image" />
+        <img src="asset 30.jpeg" alt="image" />
+        <img src="asset 31.jpeg" alt="image" />
+      </div>
+    </div>
+    <div class="h-[70vh] w-[100%] bg-white flex justify-between">
+      <ul class="text-[13px] font-normal text-gray-400 ml-7">
+        <li class="text-black p-4 text-base font-semibold">Men's Shoes</li>
+        <li>All Men's Shoes</li>
+        <li>Men's Running Shoes</li>
+        <li>Men's Football Boots</li>
+        <li>Men's Gym & Training Shoes</li>
+        <li>Men's Basketball Shoes</li>
+        <li>Men's Jordan Shoes</li>
+        <li>Men's Nike Air Max Shoes</li>
+        <li>Men's Nike Flyknit Shoes</li>
+        <li>Men's Nike Free Shoes</li>
+      </ul>
+      <ul class="text-[13px] font-normal text-gray-400">
+        <li class="text-black p-4 text-base font-semibold">Men's Clothing</li>
+        <li>All Men's Clothing</li>
+        <li>Men's T-Shirts</li>
+        <li>Men's Long-Sleeve Tops</li>
+        <li>Men's Short-Sleeve Tops</li>
+        <li>Men's Hoodies</li>
+        <li>Men's Jacket</li>
+        <li>Men's Trousers</li>
+        <li>Men's Jogger Pants</li>
+        <li>Men's Shorts</li>
+        <li>Men's Dri-FIT Clothing</li>
+      </ul>
+      <ul class="text-[13px] font-normal text-gray-400">
+        <li class="text-black p-4 text-base font-semibold">Men's Gear</li>
+        <li>All Men's Accessories</li>
+        <li>Men's Bags</li>
+        <li>Men's Hats</li>
+        <li>Men's Socks</li>
+        <li>Men's Drawstring Bags</li>
+        <li>Men's Duffel Bags</li>
+      </ul>
+      <ul class="text-[13px] font-normal text-gray-400 mr-7">
+        <li class="text-black text-base font-semibold p-4">Featured</li>
+        <li>All Men's Products</li>
+        <li>New Men's Release</li>
+        <li>Men's Air Force 1</li>
+        <li>Men's Vapormax</li>
+        <li>Men's Air Max 720</li>
+        <li>Men's Air Max 270</li>
+        <li>Men's Air Max 97</li>
+        <li>Men's Air Max 95</li>
+        <li>Men's Cortez</li>
+        <li>Men's Gift</li>
+      </ul>
+    </div>
+    <footer class="h-[60vh] w-[100%] bg-black text-white">
+      <div class="flex justify-between">
+        <div class="flex">
+          <ul class="p-11">
+            <li class="text-[20px] font-medium p-2">FIND A STORE</li>
+            <li class="text-[20px] font-medium">BECOME A MEMBER</li>
+            <li class="text-[20px] font-medium">Send Us Feedback</li>
+          </ul>
+          <ul class="p-11 text-[18px] font-medium">
+            <li class="text-[20px] font-medium">GET HELP</li>
+            <li>Order Status</li>
+            <li>Delivery</li>
+            <li>Returns</li>
+            <li>Payment Options</li>
+            <li>Contact Us On Nike,com Inquires</li>
+            <li>Contact Us On All Other Inquries</li>
+          </ul>
+          <ul class="p-11 text-[18px] font-medium">
+            <li class="text-[20px] font-medium">ABOUT NIKE</li>
+            <li>News</li>
+            <li>Careers</li>
+            <li>Investors</li>
+            <li>Sustainability</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex p-9 gap-4">
+            <li
+              class="h-[30px] w-[30px] rounded-full bg-gray-400 pl-2 hover:bg-white hover:text-gray-700"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+            <li
+              class="h-[30px] w-[30px] rounded-full bg-gray-400 pl-2 hover:bg-white hover:text-gray-700"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </li>
+            <li
+              class="h-[30px] w-[30px] rounded-full bg-gray-400 pl-2 hover:bg-white hover:text-gray-700"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li
+              class="h-[30px] w-[30px] rounded-full bg-gray-400 pl-2 hover:bg-white hover:text-gray-700"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex justify-between text-gray-500">
+        <ul class="flex gap-4 mt-4">
+          <li class="ml-8"><i class="fa-solid fa-location-dot"></i></li>
+          <li>India</li>
+          <li>
+            <i class="fa-regular fa-copyright"></i> 2023 Nike, Inc. All Rights
+            Reserved
+          </li>
+        </ul>
+        <ul class="flex gap-5 mt-4 text-gray-500">
+          <li>Guides</li>
+          <li>Terms of Sale</li>
+          <li>Terms of Use</li>
+          <li class="mr-8">Nike Privacy Policy</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
